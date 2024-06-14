@@ -1,0 +1,9 @@
+image:
+  repository: myregistry.azurecr.io/myapp
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
+
+replicaCount: 2
